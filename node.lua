@@ -156,7 +156,7 @@ Scroller = (function()
 
     local text = util.running_text{
         font = res.font;
-        size = 40;
+        size = 60;
         speed = 120;
         color = {1,1,1,.8};
         generator = util.generator(feeder)
@@ -256,7 +256,7 @@ Sidebar = (function()
             target = 1
         end
         local current_speed = 0.05
-        visibility = 0 --visibility * (1-current_speed) + target * (current_speed)
+        visibility = visibility * (1-current_speed) + target * (current_speed)
         draw()
     end
 

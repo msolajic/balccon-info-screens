@@ -2,17 +2,11 @@
     "module": "videos",
     "options": {
         "videos": [
-            {
-                "file": "3d-druck.mp4",
-                "duration": 9.2,
-                "raw": false,
-                "text": "Need a 3D printed part?"
-            },
 			{
                 "file": "badge1.mp4",
                 "duration": 15,
                 "raw": false,
-                "text": "Socialize! \n Your badge does..."
+                "text": "Socialize! Your badge does..."
             }
         ]
     },
