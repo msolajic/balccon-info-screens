@@ -141,7 +141,7 @@ function M.run(duration, next_talks, fn)
         S = S + 0.05
         y = y + 5
 
-        local text = talk.place .. " with "
+        local text = "@ " .. talk.place .. " by "
         a.add(anims.moving_font(S, E, x+220, y, text, SPEAKER_SIZE, .5,.5,.5,1)); S=S+0.1
         local w = res.font:width(text, SPEAKER_SIZE)
         a.add(anims.moving_font_list(S, E, x+220+ w + 5, y, talk.speakers, SPEAKER_SIZE, .5,.5,.5,1))
