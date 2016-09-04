@@ -1,4 +1,4 @@
-local scale = 1.0 -- downscale. 1.0 is fullHD, 2 is half of fullHD
+local scale = 2 -- downscale. 1.0 is fullHD, 2 is half of fullHD
 
 gl.setup(1920 / scale, 1080 / scale)
 WIDTH = WIDTH * scale
@@ -455,5 +455,5 @@ function node.render()
     reset_view()
     scheduler.tick()
     Scroller.tick()
-    Sidebar.tick()
+    --Sidebar.tick()
 end
