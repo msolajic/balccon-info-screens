@@ -15,7 +15,7 @@
 },{
     "module": "talks",
     "options": {
-        "duration": 14
+        "duration": 30
     }
 }, {
     "module": "text",
@@ -30,7 +30,7 @@
     "module": "twitter"
 }, {
     "module": "logo",
-    "chance": 0.1
+    "chance": 0.5
 }, {
     "module": "ads",
     "chance": 0.5,
@@ -38,7 +38,5 @@
 }, {
     "module": "text",
     "options": {
-        "text": "Want to show your project on this screen? Contact marko@lugons.org"
-    },
-    "chance": 0.2
-}]
+        "text": "Want to show your project, announce an assembly or have any other important information? Contact marko@lugons.org"
+    }]
