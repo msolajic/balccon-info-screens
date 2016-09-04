@@ -12,7 +12,7 @@ end
 -- The function should return a duration (in seconds) as well
 -- as a value that is later available in the run function.
 function M.prepare(options)
-    return 8, options
+    return 10, options
 end
 
 -- This function is running in a coroutine. It gets started
