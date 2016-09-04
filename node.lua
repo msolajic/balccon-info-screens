@@ -256,7 +256,7 @@ Sidebar = (function()
             target = 1
         end
         local current_speed = 0.05
-        visibility = visibility * (1-current_speed) + target * (current_speed)
+        visibility = 0 --visibility * (1-current_speed) + target * (current_speed)
         draw()
     end
 
@@ -455,5 +455,5 @@ function node.render()
     reset_view()
     scheduler.tick()
     Scroller.tick()
-    --Sidebar.tick()
+    Sidebar.tick()
 end
