@@ -135,7 +135,7 @@ function M.run(duration, next_talks, fn)
 
         for idx = 1, #talk.lines do
             local line = talk.lines[idx]
-            a.add(anims.moving_font(S, E, x+220, y, line, TITLE_SIZE, 1,1,1,1))
+            a.add(anims.moving_font(S, E, x+200, y, line, TITLE_SIZE, 1,1,1,1))
             y = y + TITLE_SIZE
         end
         S = S + 0.05
