@@ -174,7 +174,7 @@ Scroller = (function()
     local function draw()
         if visibility > 0.01 then
             -- black:draw(0, HEIGHT-45, WIDTH, HEIGHT, visibility/3)
-            text:draw(HEIGHT - visibility * 45)
+            text:draw(HEIGHT - visibility * 55)
         end
     end
 
