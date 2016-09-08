@@ -142,13 +142,13 @@ function M.run(duration, next_talks, fn)
         y = y + 5
 
         local text = talk.place .. " | "
-        a.add(anims.moving_font(S, E, x+220, y, text, SPEAKER_SIZE, .5,.5,.5,1)); S=S+0.1
+        a.add(anims.moving_font(S, E, x+200, y, text, SPEAKER_SIZE, .5,.5,.5,1)); S=S+0.1
         local w = res.font:width(text, SPEAKER_SIZE)
-        a.add(anims.moving_font_list(S, E, x+220+ w + 5, y, talk.speakers, SPEAKER_SIZE, .5,.5,.5,1))
+        a.add(anims.moving_font_list(S, E, x+200+ w + 5, y, talk.speakers, SPEAKER_SIZE, .5,.5,.5,1))
 
         if show_full and room_full[talk.place] and not full_shown[talk.place] then
             full_shown[talk.place] = true
-            a.add(anims.voll(S, E, x+220, start_y))
+            a.add(anims.voll(S, E, x+200, start_y))
         end
 
         S = S + 0.05
