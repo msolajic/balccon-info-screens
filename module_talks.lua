@@ -120,16 +120,16 @@ function M.run(duration, next_talks, fn)
         elseif til > 0 and til < 15 * 60 then
             time = string.format("In %d min", math.floor(til/60))
             local w = res.font:width(time, TIME_SIZE)
-            a.add(anims.moving_font(S, E, x+180-w, y, time, TIME_SIZE, 0.94,0.57,0.14,1))
+            a.add(anims.moving_font(S, E, x+100-w, y, time, TIME_SIZE, 0.94,0.57,0.14,1))
             show_full = true
         elseif talk.start_unix > now then
             time = talk.start_str
             local w = res.font:width(time, TIME_SIZE)
-            a.add(anims.moving_font(S, E, x+180-w, y, time, TIME_SIZE, 1,1,1,1))
+            a.add(anims.moving_font(S, E, x+10-w, y, time, TIME_SIZE, 1,1,1,1))
         else
             time = string.format("%d min ago", math.ceil(-til/60))
             local w = res.font:width(time, TIME_SIZE)
-            a.add(anims.moving_font(S, E, x+180-w, y, time, TIME_SIZE, .5,.5,.5,1))
+            a.add(anims.moving_font(S, E, x+10-w, y, time, TIME_SIZE, .5,.5,.5,1))
             show_full = true
         end
 
