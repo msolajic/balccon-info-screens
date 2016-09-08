@@ -156,7 +156,7 @@ Scroller = (function()
 
     local text = util.running_text{
         font = res.font;
-        size = 40;
+        size = 60;
         speed = 120;
         color = {1,1,1,.8};
         generator = util.generator(feeder)
@@ -174,7 +174,7 @@ Scroller = (function()
     local function draw()
         if visibility > 0.01 then
             -- black:draw(0, HEIGHT-45, WIDTH, HEIGHT, visibility/3)
-            text:draw(HEIGHT - visibility * 42)
+            text:draw(HEIGHT - visibility * 45)
         end
     end
 
