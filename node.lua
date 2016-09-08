@@ -156,7 +156,7 @@ Scroller = (function()
 
     local text = util.running_text{
         font = res.font;
-        size = 60;
+        size = 80;
         speed = 120;
         color = {1,1,1,.8};
         generator = util.generator(feeder)
