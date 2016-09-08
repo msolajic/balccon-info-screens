@@ -4,9 +4,9 @@ local anims = require "anims"
 
 local M = {}
 
-local SPEAKER_SIZE = 50
-local TITLE_SIZE = 60
-local TIME_SIZE = 60
+local SPEAKER_SIZE = 60
+local TITLE_SIZE = 80
+local TIME_SIZE = 80
 
 local ready = false
 local talks = {}
