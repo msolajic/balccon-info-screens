@@ -1,6 +1,6 @@
 local scale = 1 -- downscale. 1.0 is fullHD, 2 is half of fullHD
 
-gl.setup(1280 / scale, 1024 / scale)
+gl.setup(1920 / scale, 1280 / scale)
 WIDTH = WIDTH * scale
 HEIGHT = HEIGHT * scale
 
