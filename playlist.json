@@ -18,14 +18,20 @@
 }, {
     "module": "text",
     "options": {
-        "text": "Welcome to BalCCon2k16! Have a nice stay!"
+        "text": "Second day of BalCCon... What happens here, stays here!"
     }
+}, {
+    "module": "images"
 }, {
     "module": "images"
 }, {
     "module": "twitter"
 }, {
+    "module": "twitter"
+}, {
     "module": "logo"
+}, {
+    "module": "ads"
 }, {
     "module": "ads"
 }, {
