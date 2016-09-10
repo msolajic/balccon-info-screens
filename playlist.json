@@ -18,7 +18,7 @@
 }, {
     "module": "text",
     "options": {
-        "text": "Second day of BalCCon... What happens here, stays here!"
+        "text": "Second day of BalCCon... Who survives, will talk about it ;)"
     }
 }, {
     "module": "images"
@@ -37,6 +37,6 @@
 }, {
     "module": "text",
     "options": {
-        "text": "Want to show your project, announce an assembly or have any other important information? Contact marko@lugons.org"
+        "text": "Don't forget, we have RAKIJA! Workshop, that is... Tonight, 22:45 at the lounge."
     }
 }]
