@@ -28,9 +28,4 @@
     "module": "logo"
 }, {
     "module": "ads"
-}, {
-    "module": "text",
-    "options": {
-        "text": "Jelena was supposed to email me about what should go here :)"
-    }
 }]
