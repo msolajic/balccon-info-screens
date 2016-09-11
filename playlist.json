@@ -1,41 +1,14 @@
 [{
-    "module": "videos",
+    "module": "images"
+},{
+    "module": "twitter"
+},{
+    "module": "logo"
+},{
+    "module": "text",
     "options": {
-        "videos": [
-			{
-                "file": "badge1.mp4",
-                "duration": 15,
-                "raw": false,
-                "text": "Socialize! Your badge does..."
-            }
-        ]
+        "text": "WE MADE IT! BalCCon2k16 is officially over! Thanks to all the participants, volunteers and attendees!"
     }
 },{
-    "module": "talks",
-    "options": {
-        "duration": 30
-    }
-}, {
-    "module": "text",
-    "options": {
-        "text": "Third day of BalCCon... If you are having a hangover, try to listen to some talks ;)"
-    }
-}, {
-    "module": "images"
-}, {
-    "module": "twitter"
-}, {
-    "module": "logo"
-}, {
     "module": "ads"
-}, {
-    "module": "text",
-    "options": {
-        "text": "Karaoke party in Pupin hall, starting at 18:00"
-    }
-}, {
-    "module": "text",
-    "options": {
-        "text": "After party at the lounge, starting at 19:45"
-    }
 }]
