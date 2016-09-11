@@ -28,4 +28,14 @@
     "module": "logo"
 }, {
     "module": "ads"
+}, {
+    "module": "text",
+    "options": {
+        "text": "Karaoke party in Pupin hall, starting at 18:00"
+    }
+}, {
+    "module": "text",
+    "options": {
+        "text": "After party at the lounge, starting at 19:45"
+    }
 }]
